@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/104b0d0c77.js" crossorigin="anonymous"></script>
+    <title>Cake Shop</title>
+  </head>
+  <body>
+    <header>
+      <div class="header_inner">
+        <div class="header_col">
+          <div class="logo_container">
+            <h4 class="logo">CAKE SHOP</h4>
+          </div>
+        </div>
+        <div class="header_col">
+          <button class="order_btn">Order Now</button>
+          <button class="menu_btn" id="menu_btn">Menu</button>
+
+          <nav class="nav_container" id="navbar">
+            <h1 class="nav_logo">
+              CAKE SHOP
+            </h1>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#cakes_section">Cakes</a></li>
+              <li><a href="#about_us">About Us</a></li>
+              <li><a href="#">Place an Order</a></li>
+            </ul>
+            <button class="menu_close_btn" id="menu_close_btn">Close</button>
+          </nav>
+        </div>
+      </div>
+    </header>
+    
+    <!-- Home Section -->
+    <section class="hero_section" id="hero_section">
+      <div class="hero_container">
+        <h1 class="hero_text">Exquisite Cakes,</br>Made for Unforgettable Moments</h1>
+        <div class="img_container">
+          <img src="images/Chocolate-Ice-Cream.webp" alt="hero">
+        </div>
+        <button class="explore_btn">Browse Our Selection</button>
+      </div>
+    </section>
+    
+    <!-- Why Choose Us Section -->
+    <section class="project" id="why_choose_us_section">
+      <h1>Why Choose Us</h1>
+      <div class="why_choose_us_container">
+        <div class="row">
+          <img src="images/cake shop 1s.jpeg" alt="Premium Ingredients" class="reason_img">
+          <div class="layer">
+            <h2>Top-Quality Ingredients</h2>
+            <p>We use only organic and premium ingredients to ensure the finest quality.</p>
+          </div>
+        </div>
+        <div class="row">
+          <img src="images/cake8.jpeg" alt="Custom Design Cakes" class="reason_img">
+          <div class="layer">
+            <h2>Tailor-Made Cake Designs</h2>
+            <p>Our handcrafted cakes are created just for you, reflecting your personal style.</p>
+          </div>
+        </div>
+        <div class="row">
+          <img src="images/cake 12.jpeg" alt="On Time Delivery" height="200px" class="reason_img">
+          <div class="layer">
+            <h2>Punctual Delivery</h2>
+            <p>We ensure timely delivery, so your event runs smoothly without a hitch.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- About Us Section -->
+    <section class="about_us" id="about_us">
+      <div class="about_us_container">
+        <div class="col">
+          <div class="img_container">
+            <img src="images/cake shop3.jpeg" width="560px" alt="about_hero">
+          </div>
+        </div>
+        <div class="row">
+          <h1>Our Journey</h1>
+          <p>Creating Luxury, <span>One Cake at a Time</span></p>
+          <p>Founded in 2023, Cake Shop is a boutique bakery dedicated to crafting unique, visually stunning cakes that taste just as extraordinary. From intimate gatherings to grand celebrations, our cakes have become the heart of countless unforgettable moments.</p>
+          <p>Our mission is to sweeten your special occasions with cakes that are as delightful to the palate as they are to the eye.</p>
+          <p>Whether it's a wedding, birthday, or corporate event, we are committed to turning your cake dreams into reality.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--Cake section-->
+    <section class="cakes_section" id="cakes_section">
+      <div class="cakes_container">
+        <div class="title_container">
+          <h1>Our Signature Creations</h1>
+        </div>
+        <div class="content">
+          <div class="swiper cakesSwiper">
+            <div class="swiper-wrapper">
+              <!-- Individual Cake Items -->
+              <div class="swiper-slide">
+                <div class="product_card">
+                <div class="img_container">
+                  <img src="images/rainbow.jpeg" alt="Rainbow Cake Delight">
+                </div>
+                <div class="text_container">
+                  <h2>Rainbow Cake Delight</h2>
+                  <h4>$85</h4>
+                  <button class="add_to_cart">Add To Cart</button>
+                </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_card">
+                <div class="img_container">
+                  <img src="images/cake5.jpeg" alt="Rainbow Cake Delight">
+                </div>
+                <div class="text_container">
+                  <h2>Midnight Black Forest Strawberry Delight</h2>
+                  <h4>$100</h4>
+                  <button class="add_to_cart">Add To Cart</button>
+                </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_card">
+                <div class="img_container">
+                  <img src="images/fruitcake.jpg" alt="Rainbow Cake Delight">
+                </div>
+                <div class="text_container">
+                  <h2>Fruit Flavoured Cake</h2>
+                  <h4>$65</h4>
+                  <button class="add_to_cart">Add To Cart</button>
+                </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_card">
+                <div class="img_container">
+                  <img src="images/Naked-Cake.jpg" alt="Rainbow Cake Delight">
+                </div>
+                <div class="text_container">
+                  <h2>Naked Cake</h2>
+                  <h4>$50</h4>
+                  <button class="add_to_cart">Add To Cart</button>
+                </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_card">
+                <div class="img_container">
+                  <img src="images/cake2.jpeg" alt="Rainbow Cake Delight">
+                </div>
+                <div class="text_container">
+                  <h2>Dark ChocolateCake</h2>
+                  <h4>$60</h4>
+                  <button class="add_to_cart">Add To Cart</button>
+                </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_card">
+                <div class="img_container">
+                  <img src="images/cake1.jpeg" alt="Rainbow Cake Delight">
+                </div>
+                <div class="text_container">
+                  <h2>Golden Raspberry Dream</h2>
+                  <h4>$85</h4>
+                  <button class="add_to_cart">Add To Cart</button>
+                </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_card">
+                <div class="img_container">
+                  <img src="images/strawberry.jpeg" alt="Rainbow Cake Delight">
+                </div>
+                <div class="text_container">
+                  <h2>Strawberry Pink Delight</h2>
+                  <h4>$70</h4>
+                  <button class="add_to_cart">Add To Cart</button>
+                </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_card">
+                <div class="img_container">
+                  <img src="images/cake7.jpeg" alt="Rainbow Cake Delight">
+                </div>
+                <div class="text_container">
+                  <h2>Royal Blue Velvet Cake</h2>
+                  <h4>$55</h4>
+                  <button class="add_to_cart">Add To Cart</button>
+                </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_card">
+                <div class="img_container">
+                  <img src="images/pearl.jpeg" alt="Rainbow Cake Delight">
+                </div>
+                <div class="text_container">
+                  <h2>Perl Royal White Cake</h2>
+                  <h4>$67</h4>
+                  <button class="add_to_cart">Add To Cart</button>
+                </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_card">
+                <div class="img_container">
+                  <img src="images/icecream.jpeg" alt="Rainbow Cake Delight">
+                </div>
+                <div class="text_container">
+                  <h2>Chocolate Ice Cream Cake</h2>
+                  <h4>$85</h4>
+                  <button class="add_to_cart">Add To Cart</button>
+                </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Testimonial section-->
+    <section class="testimonial_section">
+      <div class="testimonial_container">
+        <div class="col">
+          <div class="img_container">
+            <img src="images/sliced cake.jfif" alt="testimonial">
+          </div>
+        </div>
+        <div class="col">
+          <div class="swiper testimonialSwiper">
+            <div class="swiper-wrapper">
+              <!-- Testimonial Slides -->
+              <div class="swiper-slide">
+                <div class="review_container">
+                  <h4>"The most exquisite cake I've ever had!"</h4>
+                  <h5>- Jane N.</h5>
+                  <div class="client_img_container">
+                    <img src="images/profile/face2.jfif" alt="client">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="review_container">
+                  <h4>"Delivered right on time and looked amazing!"</h4>
+                  <h5>- Alex M.</h5>
+                  <div class="client_img_container">
+                    <img src="images/profile/face4.jfif" alt="client">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="review_container">
+                  <h4>"The flavors were just divine, will order again."</h4>
+                  <h5>- Sarah W.</h5>
+                  <div class="client_img_container">
+                    <img src="images/profile/face5.jfif" alt="client">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="review_container">
+                  <h4>"The most exquisite cake I've ever had!"</h4>
+                  <h5>- Benjamin K.</h5>
+                  <div class="client_img_container">
+                    <img src="images/profile/face3.jfif" alt="client">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="review_container">
+                  <h4>"Delivered right on time and looked amazing!"</h4>
+                  <h5>- Alex M.</h5>
+                  <div class="client_img_container">
+                    <img src="images/profile/face6.jfif" alt="client">
+                  </div>
+                </div>
+              </div>
+              
+
+            </div>
+          </div>
+        </div>          
+      </div>
+    </section> 
+    <!--offer section --> 
+    <section class="offer_section">
+      <div class="offer_container">
+        <div class="col">
+          <div class="title_container">
+            <h2>Special Offer:Black Forest Chocolate Cake</h2>
+            <p>Enjoy Luxury at an Unbeatable Price</p>
+          </div>
+          <div class="content">
+            <p>Receive 15% off our signature cake, perfect for weddings, birthdays, or any celebration that deserves a touch of elegance.</p>
+            <button class="order_now">Order Now</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="img_container">
+            <img src="images/cakes.jpeg" alt="offer">
+          </div>  
+        </div>
+      </div>
+    </section>
+    <!-- contact section -->
+     <section class="contact_section" id="contact_section">
+      <div class="contact_container">
+        <div class="title_container">
+          <h1>Custom Cakes, Made Just for You</h1>
+          <p>Your Imagination, Our Creation</p>
+        </div>
+        <div class="content">
+          <form action="#" class="contact_form">
+            <div class="form_row">
+              <div class="form_col">
+                <input type="text" name="name" placeholder="Name">
+              </div>
+              <div class="form_col">
+                  <input type="text" name="email" placeholder="Email">
+              </div>
+              <div class="form_col">
+                <input type="tel" name="phone" placeholder="Phone Number">
+              </div>
+            </div>
+            <div class="form_row">
+              <div class="form_col">
+                <select name="caketype" id="caketype">
+                  <option value="">Cake Type</option>
+                  <option value="Wedding Cake">Wedding Cake</option>
+                  <option value="Birthday Cake">Birthday Cake</option>
+                  <option value="Anniversary Cake">Anniversary Cake</option>
+                  <option value="Corporate Event Cake">Corporate Event Cake</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+              <div class="form_col">
+                  <input type="date" name="date" placeholder="Event Date">
+              </div>
+              <div class="form_col">
+                <select name="numberofservings" id="numberofservings">
+                  <option value="">Number Of Servings</option>
+                  <option value="1-10">1-10</option>
+                  <option value="10-20">10-20</option>
+                  <option value="21-50">21-50</option>
+                  <option value="51-100">51-100</option>
+                  <option value="100+">100+</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form_row">
+              <div class="form_col">
+                <input type="text" name="flavorpreference" placeholder="Flavor Preference">
+              </div>
+            </div>
+
+            <div class="form_row">
+              <div class="form_col">
+                <textarea name="cakedesign" id="cakedesign" placeholder="Describe your cake desig(color,theme,decoration)"></textarea>
+              </div>
+            </div>
+
+            <div class="form_row">
+              <div class="form_col">
+                <textarea name="specialrequest" id="spacialrequest" placeholder="Any spacial request or question?"></textarea>
+              </div>
+            </div>
+            <div class="form_row">
+              <button class="submit">Submit Your Request</button>
+            </div>
+          </form>
+        </div>
+      </div>
+     </section>
+     <!--follow us section-->
+     <section class="insta_section">
+      <div class="insta_container">
+        <div class="title_container">
+          <h1>Follow Us</h1>
+        </div>
+        <div class="content">
+          <a href="#">
+          <div class="img_container">
+            <img src="images/lava.jfif" alt="insta" class="insta">
+          </div>
+          </a>
+          <a href="#">
+          <div class="img_container">
+            <img src="images/sliced2.jfif" alt="insta" class="insta">
+          </div>
+          </a>
+          <a href="#">
+          <div class="img_container">
+            <img src="images/strawberry1.jfif" alt="insta" class="insta">
+          </div>
+          </a>
+          <a href="#">
+            <div class="img_container">
+              <img src="images/teacake.jfif" alt="insta" class="insta">
+            </div>
+            </a>
+        </div>
+      </div>
+     </section>
+     <!--footer section-->
+     <footer>
+      <div class="footer_container">
+        <div class="col">
+          <h1 class="footer_logo">CAKE SHOP</h1>
+          <h3>Our Mission</h3>
+          <p>We strive to make every moment memorable with cakes designed to impress and taste incredible.</p>
+          <div class="newsletter_container">
+            <form action="#">
+              <input type="email" placeholder="Enter Your Email..." required>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+        <div class="col">
+          <h1>Follow Us On</h1>
+          <p>Email: cakeshop@example.com</p>
+          <p>Phone: (555) 555-1234</p>
+          <div class="social_media_container">
+            <button>
+              <i class="fa-brands fa-facebook"></i>
+            </button>
+            <button>
+              <i class="fa-brands fa-square-instagram"></i>
+            </button>
+            <button>
+              <i class="fa-brands fa-square-x-twitter"></i>
+            </button>
+            <button>
+              <i class="fa-brands fa-youtube"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <p>&copy; 2024 Copyright <span>Joy Nyawira</span>. All rights reserved.</p>
+        <p>Created by <a href="https://github.com/joynyawira" target="_blank">Joy Nyawira</a></p>
+      </div>
+    </footer>
+    
+    <!--javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
